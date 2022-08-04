@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    text-align: center;
+    padding:10px;
+    border: solid 2px #7E40D7;
+    border-radius: 10px;
+    width: 345px;
+    margin: 30px auto;
+
+  }
+
+  .countdown-time{width:100%; float: left;}
+
+  .app-inner{
+    width: auto;
+    margin: auto !important;
+    display: flex;
+  }
+
+  .App svg{
+    display: none;
+  }
+
+  .App div{
+      color: #ffffff !important;
+    margin:0 5px 0 1px;
+  }
+  
+  .time {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  

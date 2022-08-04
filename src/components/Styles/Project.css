@@ -1,0 +1,85 @@
+.inner-banner{ background-size:cover; min-height:220px; max-height:220px;}
+.projects-upcoming {float: left; width: 100%; margin:0; padding:0; text-align:center;}
+.projects-upcoming h3 { font-size: 40px; letter-spacing: 5px; color: #fff; text-shadow:0 0 5px #fff; font-weight:300; margin:0 0 60px 0; padding:0; display:block; text-align:center;}
+.projects-launched {float: left; width: 100%; margin:0; padding:0 0 0 0; text-align:center;}
+.projects-launched h3 { font-size: 40px; letter-spacing: 5px; color: #fff; text-shadow:0 0 5px #fff; font-weight:300; margin:0 0 60px 0; padding:0; display:block; text-align:center;}
+.projects-upcoming .tabcontent, .projects-launched .tabcontent {margin:0px;}
+
+.projects-details{background-repeat: no-repeat !important; background-position: top center !important; background-size:contain !important; float:left; width:100%; margin:-112px 0 0 0; padding:0; text-align:center;}
+.projects-details .live-button{background:#10AF20; padding:15px 30px; font-weight:600; font-size:36px; border-radius:40px; border:none; outline:none; color:#fff; display:block; margin:200px auto 20px; box-shadow:0 3px 5px #00000054;}
+.projects-details .sold-button{background:#D20B20; padding:15px 30px; font-weight:600; font-size:36px; border-radius:40px; border:none; outline:none; color:#fff; display:block;; margin:200px auto 20px;box-shadow:0 3px 5px #00000054;}
+.projects-details span.project-date { font-size: 16px; color: #fff; font-weight:500; margin:0; padding:0;}
+.projects-details h3 { font-size: 50px; line-height: 50px; letter-spacing: 3px; color: #fff; font-weight:500; margin:150px 0 20px 0; padding:0;font-family: 'Montserrat', sans-serif; text-transform:uppercase;}
+.projects-details p.detail-short-text { font-size: 16px; color: #fff; font-weight:400; margin:0 auto; padding:0; width:90%;}
+.projects-details .detail-social-icon {width: 100%;text-align: center; float:left; margin:35px 0;}
+.projects-details .detail-social-icon a {color:#F5F5F5; outline:none; border:none; margin:0 10px;}
+.projects-details .detail-social-icon a:hover {color:#fff;text-shadow:0 0 10px #fff;}
+
+.projects-details h5{float: left;width: 100%;font-size: 40px; letter-spacing: 3px; color: #fff; font-weight:500; margin:100px 0 50px 0; padding:0;font-family: 'Montserrat', sans-serif;}
+.projects-details p.detail-about-text { font-size: 16px; color: #fff; font-weight:400; margin:0 auto; padding:0; width:90%;}
+
+.projects-details .project-team-info {float: left;width: 30%;text-align: center; margin:0 1.5% 50px;}
+.projects-details .project-team-info img{width: 60%;border-radius: 50px;}
+.projects-details .project-team-info h4 {color: #fff;font-size: 28px;font-weight: 600;text-transform: uppercase;line-height:30px;margin: 0;padding: 5px 0 0 0;font-family: 'Montserrat', sans-serif;}
+.projects-details .project-team-info p {color: #fff;font-size: 18px;margin: 0 auto;line-height: 28px;padding-top: 5px; color:#C4C4C4;}
+.projects-details .project-team-info a {color: #C4C4C4;font-size: 20px;margin: 5px 5px 0;}
+.projects-details .project-team-info a:hover {color: #fff;text-shadow:0 0 10px #fff;}
+
+.first-table{border:solid 2px #4200B0; border-radius:30px; margin:30px 0; width:96%; padding:2%; float:left;}
+.first-table .left-div{float:left; width:45%; margin:0; padding:0; text-align:left;}
+.first-table .left-div .live{color:#10AF20; font-size:24px;font-weight:600; }
+.first-table .left-div span{color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:30px 0 0 0; display:block;  }
+.first-table .left-div p{color:#fff; font-size:24px;font-weight:600; line-height:30px;margin:0; padding:0; }
+
+.first-table .right-div {float:right; width:45%; margin:0; padding:0; text-align:left;}
+.first-table .right-div .live{color:#ffffff; font-size:24px;font-weight:600; border-bottom:solid 1px #595098; padding:0 0 10px 0; }
+.first-table .right-div .swapped{float:left; width:100%; border-bottom:solid 1px #595098; padding:0 0 10px 0; }
+.first-table .right-div .left{float:left; width:50%;}
+.first-table .right-div .right{float:right; width:50%;}
+.first-table .right-div span{color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:10px 0 0 0; display:block;  }
+.first-table .right-div p{color:#fff; font-size:24px;font-weight:600; line-height:30px;margin:0; padding:0; }
+.first-table .right-div .progress{float:left; width:100%;}
+.first-table .right-div .progress p{color:#fff; font-size:20px;font-weight:600; line-height:30px;margin:0; padding:0; }
+.first-table .right-div #progressbar {background-color:#282346;border-radius: 13px;padding: 0; margin:20px 0 10px 0;}
+.first-table .right-div #progressbar>div {background-color:#19E9FF;width: 40%;height: 12px;border-radius: 10px;}
+
+.first-table .bottom-div {float:left; width:100%; margin:20px 0 0 0; padding:20px 0 0 0; border-top:solid 1px #595098; text-align:left; }
+.first-table .bottom-div button { border:solid 3px #19E9FF; padding:10px 20px; color:#fff; font-size:20px; font-weight:600; line-height:30px; background:transparent; border-radius:30px; margin:0 20px 0 0; cursor:pointer;}
+.first-table .bottom-div button:hover {color:#19E9FF; text-shadow:0 0 5px #19E9FF;}
+
+.second-table {width:100%; float:left; text-align:left;}
+.second-table .left-div{border:solid 2px #4200B0; border-radius:30px; margin:30px 0; width:41%; padding:2%; float:left;}
+.second-table .left-div p{color:#fff; font-size:24px;font-weight:600; line-height:30px;margin:0; padding:0; }
+.second-table .left-div  table{width:100%; float:left; }
+.second-table .left-div  table tr{padding:15px 0; border-bottom:solid 1px #595098; float:left; width:100%; }
+.second-table .left-div .left-span{float:left; width:49%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0; }
+.second-table .left-div .right-span{float:right;width:49%; color:#fff; font-size:20px;font-weight:600; line-height:22px;margin:0; text-align:right; }
+
+.second-table .right-div{width:45%; float:right;}
+.second-table .right-div .right-inner-div{border:solid 2px #4200B0; border-radius:30px; margin:30px 0; width:90%; padding:5%; float:left;}
+.second-table .right-div .right-inner-div p{color:#fff; font-size:24px;font-weight:600; line-height:30px;margin:0; padding:0; }
+.second-table .right-div .right-inner-div table{width:100%; float:left; }
+.second-table .right-div .right-inner-div table tr{padding:10px 0; border-bottom:solid 1px #595098; float:left; width:100%; }
+.second-table .right-div .right-inner-div .left-span{float:left; width:49%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0; }
+.second-table .right-div .right-inner-div .right-span{float:right;width:49%; color:#fff; font-size:20px;font-weight:600; line-height:22px;margin:0; text-align:right; }
+.second-table .right-div .right-inner-div .first-span{float:left; width:32%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0; }
+.second-table .right-div .right-inner-div .second-span{float:left;width:32%; color:#fff; font-size:18px;font-weight:600; line-height:22px;margin:0; }
+
+.third-table {width:100%; float:left; text-align:left;}
+.third-table .button-class {width:100%; float:left; text-align:right;}
+.third-table .button-class button {border:solid 3px #19E9FF;padding:10px 20px;color:#fff;font-size:20px;font-weight:600;line-height:30px;background:transparent;border-radius:30px;cursor:pointer;}
+.third-table .button-class button:hover {color:#19E9FF; text-shadow:0 0 5px #19E9FF;}
+
+.third-table .full-div{border:solid 2px #4200B0; border-radius:30px; margin:30px 0; width:96%; padding:2%; float:left;}
+.third-table .full-div {border:solid 2px #4200B0; border-radius:30px; margin:30px 0; width:90%; padding:5%; float:left;}
+.third-table .full-div p{color:#fff; font-size:24px;font-weight:600; line-height:30px;margin:0; padding:0; }
+.third-table .full-div table{width:100%; float:left; }
+.third-table .full-div table tr{padding:10px 0; border-bottom:solid 1px #595098; float:left; width:100%; }
+.third-table .full-div .left-span{float:left; width:49%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0; }
+.third-table .full-div .right-span{float:right;width:49%; color:#fff; font-size:20px;font-weight:600; line-height:22px;margin:0; text-align:right; }
+.third-table .full-div .first-span{float:left; width:13%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0; }
+.third-table .full-div .second-span{float:left; width:30%; color:#E000FF; font-size:18px;font-weight:400; line-height:22px; margin:0;  }
+.third-table .full-div .third-span{float:left;width:13%; color:#fff; font-size:18px;font-weight:600; line-height:22px;margin:0; }
+.third-table .full-div .fourth-span{float:left;width:30%; color:#fff; font-size:18px;font-weight:600; line-height:22px;margin:0; }
+.third-table .full-div button{border:solid 3px #19E9FF;padding:5px 15px;color:#fff;font-size:14px;font-weight:600;line-height:30px;background:transparent;border-radius:30px;cursor:pointer;}
+.third-table .full-div button:hover{color:#19E9FF; text-shadow:0 0 5px #19E9FF;}

@@ -1,0 +1,130 @@
+html, body{height: 100%;}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+input, select, textarea, button{font-family: 'Montserrat', sans-serif;}
+.bg-color{width: 100%;background: #fff;height: 100%;display: inline-block;}
+
+/* Header */
+.admin-header{width:96%; float:left; margin:0; padding:2%; background: #fff;}
+.admin-header .admin-logo{float:left; width:30%;}
+.admin-header .profile-avtar{float:right; width:60%; text-align:right; margin:20px 0 0 0;}
+.admin-header .profile-avtar .left-side{float:right; width:10%; margin:20px 0 0 0;}
+.admin-header .profile-avtar .left-side a{color:#C2C2C2; font-size:24px;}
+.admin-header .profile-avtar .left-side a:hover{color:#AC0B18;}
+.admin-header .profile-avtar .middle-side{float:right; width:180px;color:#000000; font-size:18px; font-weight:500; margin:20px 0 0 0;}
+.admin-header .profile-avtar .middle-side span{display:block}
+.admin-header .profile-avtar .middle-side span b{color:#AC0B18; font-weight:500;}
+.admin-header .profile-avtar .middle-side span button{border-radius:20px; background:#AC0B18; padding:8px 15px; color:#fff; font-size:12px; font-weight:500; border:none; outline:none;cursor:pointer;}
+.admin-header .profile-avtar .middle-side span button:hover{background:#000;color:#fff;}
+.admin-header .profile-avtar .right-side{float:right; width:100px;}
+.admin-header .profile-avtar .right-side img{border-radius:50px; box-shadow:0 0 10px #00000016; width:75px; height:75px;}
+
+/* Left Panel */
+.left-panel{float:left; width:22%; height: 200vh; background-image: linear-gradient(#B80C0C, #380086); border-radius:0 120px 0 0;}
+.left-panel .inner-div{ width:75%; padding:10%; float:left; margin:60px 0 0 0;}
+.left-panel .inner-div a.add-pro-button{border:solid 3px #fff; border-radius:30px; color:#fff; padding:10px 0; font-size:16px;font-weight:700; text-decoration:none; display:block; width:99%; text-align:center;}
+.left-panel .inner-div a.add-pro-button:hover{border:solid 3px #fff; color:#AC0B18; background:#fff;}
+.left-panel .inner-div ul{margin:50px 0; padding:0;}
+.left-panel .inner-div ul li{list-style:none;}
+.left-panel .inner-div ul a{text-decoration:none;}
+.left-panel .inner-div ul a li{color:#fff; padding:10px 20px; font-size:18px;font-weight:500;margin:10px 0;}
+.left-panel .inner-div ul a li:hover{color:#000; background:#fff; border-radius:30px; box-shadow:0 0 10px #00000016}
+.left-panel .inner-div ul a li.active{color:#000; background:#fff; border-radius:30px; box-shadow:0 0 10px #00000016}
+.left-panel .inner-div ul li i{width:25px;}
+
+/* Right Panel */
+.right-panel{float:right; width:73%; margin:2% 2% 0 0;}
+.right-panel .top-listing{ width:100%; float:left;}
+.right-panel .top-listing h2{ width:50%; float:left; font-size:25px; font-weight:600; color:#535353; text-transform:uppercase; margin:0; padding:0;}
+
+.right-panel .top-listing-add-edit{ width:100%; float:left; border-bottom:solid 1px #DFDFDF; padding:0 0 10px 0;}
+.right-panel .top-listing-add-edit h2{font-size:25px; font-weight:600; color:#535353; text-transform:uppercase; margin:0; padding:0;}
+
+.right-panel .top-listing .filter{ width:200px; float:right; font-size:14px; font-weight:400; color:#8F8F8F; margin:0; padding:0; text-align:right;}
+.right-panel .top-listing .filter select{border:solid 1px #707070; border-radius:5px; padding:2px;}
+.right-panel .top-listing .add-button{ width:150px; float:right; text-align:right;}
+.right-panel .top-listing .add-button a{ font-size:16px; font-weight:600; color:#fff; background:#00A8B9; border-radius:7px; outline:none; border:none; padding:5px 10px; text-decoration:none; text-transform:uppercase;}
+.right-panel .top-listing .add-button a:hover{color:#fff; background:#AC0B18;}
+
+.right-panel .bottom-listing{width:100%; float:left;}
+.right-panel .bottom-listing table{width:100%; float:left;}
+.right-panel .bottom-listing table tr.top-border{font-size:14px; font-weight:600; color:#B2B2B2; text-transform:uppercase;}
+.right-panel .bottom-listing table tr.top-border:hover{box-shadow:none;border-radius:0;}
+.right-panel .bottom-listing table tr{font-size:14px; font-weight:500; color:#000000;}
+.right-panel .bottom-listing table tr:hover{box-shadow:0 0 10px #00000025;border-radius:10px;}
+.right-panel .bottom-listing table td{padding:10px 5px;}
+.right-panel .bottom-listing table tr td.w-10{width:10%; border-bottom:solid 1px #DFDFDF; padding:20px 0 5px 0;}
+.right-panel .bottom-listing table tr td.w-15{width:15%; border-bottom:solid 1px #DFDFDF; padding:20px 0 5px 0;}
+.right-panel .bottom-listing table tr td.w-20{width:20%; border-bottom:solid 1px #DFDFDF; padding:20px 0 5px 0;}
+.right-panel .bottom-listing table tr td.w-25{width:25%; border-bottom:solid 1px #DFDFDF; padding:20px 0 5px 0;}
+.right-panel .bottom-listing table tr td.w-30{width:30%; border-bottom:solid 1px #DFDFDF; padding:20px 0 5px 0;}
+.right-panel .bottom-listing table tr td img{width:60px; height:60px; border-radius:50px;}
+.right-panel .bottom-listing table select.upcoming{border:none; border-radius:20px; padding:5px 10px; background:#00A8B925; color:#00A8B9; outline:none; font-weight:600;}
+.right-panel .bottom-listing table select.live-now{border:none; border-radius:20px; padding:5px 10px; background:#0BAC0B25; color:#0BAC0B; outline:none; font-weight:600;}
+.right-panel .bottom-listing table select.ended{border:none; border-radius:20px; padding:5px 10px; background:#D2112025; color:#D21120; outline:none; font-weight:600;}
+.right-panel .bottom-listing button.edit{background:transparent; padding:0 10px; color:#5D5D5D; font-size:14px; font-weight:600; border:none; outline:none;cursor:pointer;}
+.right-panel .bottom-listing button.edit:hover{color:#000000;}
+.right-panel .bottom-listing button.delete{background:transparent; padding:0 10px; color:#D61828; font-size:14px; font-weight:600; border:none; outline:none;cursor:pointer;}
+.right-panel .bottom-listing button.delete:hover{color:#FF0015;}
+.right-panel .bottom-listing .platinum{color:#B1B1B1}
+.right-panel .bottom-listing .gold{color:#CBB315}
+.right-panel .bottom-listing .bronze{color:#7E1717}
+.right-panel .bottom-listing ul.notifications{padding:0 0 0 30px;}
+.right-panel .bottom-listing ul.notifications li{font-size:16px; color:#101010; font-weight:500; line-height:40px;}
+.right-panel .bottom-listing ul.notifications li::marker{list-style-type: disc;font-size:30px; color:#00A8B9;}
+
+.right-panel .bottom-listing-add-edit{width:100%; float:left;}
+.right-panel .bottom-listing-add-edit .first-table{width:47%; float:left; border: none; padding:0; border-radius: 0;}
+.right-panel .bottom-listing-add-edit .second-table{width:47%; float:right;}
+.right-panel .bottom-listing-add-edit td.first{width:30%;font-size:14px;color:#B2B2B2; font-weight:600; text-transform:uppercase; padding:15px 0 0 0;}
+.right-panel .bottom-listing-add-edit td.second{width:70%; padding:15px 0 0 0;}
+.right-panel .bottom-listing-add-edit input[type="text"]{width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:3%; outline:none; font-size:16px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit input[type="date"]{width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:3%; outline:none; font-size:16px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit input[type="time"]{width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:3%; outline:none; font-size:16px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit select{width:100%; border:solid 1px #C4C4C4; border-radius:10px; padding:3%; outline:none; font-size:16px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit textarea{width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:3%; outline:none; font-size:16px; font-weight:500; color:#000; height:100px;}
+.right-panel .bottom-listing-add-edit input[type="file"]{opacity:0; width:100%; height:100px; cursor:pointer; }
+.right-panel .bottom-listing-add-edit .file-overlay{border:dashed 1px #c4c4c4; margin:-100px 0 0 0; text-align:center; color:#C4C4C4; font-size:12px;background:#fbfbfb; height:100px; border-radius:10px; font-weight:300;}
+.right-panel .bottom-listing-add-edit .file-overlay .fa-file-upload{margin:30px 0 0 0; color:#C4C4C4;font-size:30px; display:block;}
+.right-panel .bottom-listing-add-edit .add-new{border:dashed 1px #c4c4c4; width:92%; border-radius:10px; padding:4%;margin: 0 0 15px 0;}
+.right-panel .bottom-listing-add-edit .news-image{width:100%; margin: 20px 0 0 0; border-radius: 10px;}
+.right-panel .bottom-listing-add-edit .add-new table{width:100%; color:#B2B2B2; font-size:13px;}
+.right-panel .bottom-listing-add-edit .add-new input[type="text"]{width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:2%; outline:none; font-size:13px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit .add-new input[type="file"]{opacity:1;width:100%; height:auto; cursor:pointer;width:94%; border:solid 1px #C4C4C4; border-radius:10px; padding:2%; outline:none; font-size:10px; font-weight:500; color:#000;}
+.right-panel .bottom-listing-add-edit button.add-more{border:solid 1px #707070; border-radius:30px; color:#6D6D6D; padding:5px 10px; font-size:12px;font-weight:600; text-decoration:none;background:#F3F3F3;cursor:pointer; margin:10px;}
+.right-panel .bottom-listing-add-edit button.add-more:hover{border:solid 1px #707070; color:#000; background:#fff;}
+.right-panel .bottom-listing-add-edit .buttons{width:100%; text-align:right;}
+.right-panel .bottom-listing-add-edit button.update-button{border-radius:30px; color:#fff; padding:10px 40px; font-size:16px;font-weight:600; text-decoration:none;background:#00A8B9;cursor:pointer; outline:none; border:none; margin:0 10px 0 0;}
+.right-panel .bottom-listing-add-edit button.update-button:hover{background:#AC0B18;color:#fff;}
+.right-panel .bottom-listing-add-edit button.close-button{border:solid 1px #707070; border-radius:30px; color:#707070; padding:9px 40px; font-size:16px;font-weight:600; text-decoration:none;cursor:pointer; outline:none; background:transparent;}
+.right-panel .bottom-listing-add-edit button.close-button:hover{background:#d5d5d5;color:#fff;border:solid 1px #d5d5d5;}

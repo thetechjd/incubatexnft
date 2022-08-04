@@ -1,0 +1,52 @@
+.inner-banner{background:url("../../assets/images/inner-banner.png") no-repeat center; background-size:cover; min-height:220px; max-height:220px;}
+.inner-pages {float: left; width: 100%; margin:0; padding:0; text-align:center;}
+.inner-pages h3 { font-size: 40px; letter-spacing: 5px; color: #fff; text-shadow:0 0 5px #fff; font-weight:300; margin:0 0 60px 0; padding:0; display:block; text-align:center;}
+
+
+/* Submit Project Page */
+.submit-project h6{font-size:18px; font-weight:300; margin:-50px 0 100px 0; display:block;font-family: 'Montserrat', sans-serif;}
+.submit-project input[type="text"]{display:block; width:60%; margin:20px auto; outline:none; border-bottom:solid 2px #6F63BB !important; border:none; font-size:24px; color:#786DC5; font-weight:400; background:transparent; padding:15px;}
+.submit-project input[type="email"]{display:block; width:60%; margin:20px auto; outline:none; border-bottom:solid 2px #6F63BB !important; border:none; font-size:24px; color:#786DC5; font-weight:400; background:transparent; padding:15px;}
+.submit-project input[type="text"]::placeholder, .submit-project input[type="email"]::placeholder{color:#786DC5;}
+.submit-project button{margin:50px 0 0 0;}
+.success-text{ font-size:16px;}
+.success-text a{ color:#fff;}
+.success-text span{ font-size:20px; font-weight:500; text-transform:uppercase; margin:50px 0 0 0; display:block;}
+
+
+/* How it Works Page */
+.how-it-works .full-hiw{float:left; width:100%; margin:50px 0 50px 0; padding:0; text-align: left;}
+.how-it-works .left-side{float:left; width:47%; margin:0; padding:0;}
+.how-it-works .right-side{float:right; width:47%; margin:0; padding:0;}
+.how-it-works p{font-size:16px;line-height:30px;}
+
+/* News Details */
+.news-detail-page h6{font-size:18px; font-weight:300; margin:-50px 0 100px 0; display:block;font-family: 'Montserrat', sans-serif;}
+.news-detail-page img{border: 5px solid #0000;border-radius: 50px;background: linear-gradient(#7E40D7,#06002C) border-box; width:80%;}
+.news-detail-page p{font-size:16px; text-align:left; line-height:30px;}
+
+/* Core Team */
+.core-team .full-team-info{width:30%; margin:20px 20px; padding:0; float: left;}
+.core-team .full-team-info .left-side{float:left; width:100%; margin:10px 0; padding:0; text-align:center;}
+.core-team .full-team-info .right-side{float:left; width:100%; margin:10px 0; padding:0; text-align:center;}
+.core-team .full-team-info img{width:300px; height:300px; border: 4px solid #0000;border-radius: 200px; background: linear-gradient(#DE203E,#12022D) border-box;}
+.core-team .full-team-info h4 {color: #D81F3D;font-size: 25px;font-weight: 600;text-transform: uppercase;line-height: 30px;margin: 0;padding: 5px 0 0 0;font-family: 'Montserrat', sans-serif;} 
+.core-team .full-team-info span {color: #fff;font-size: 20px;margin: 0 auto;line-height: 28px;padding-top: 5px; display:block;}
+.core-team .full-team-info p {color: #fff;font-size: 16px;margin: 0 auto;line-height: 28px;padding: 10px 0;}
+.core-team .full-team-info a {color: #fff;font-size: 20px;margin: 5px 5px 0;}
+.core-team .full-team-info a:hover {color: #fff;text-shadow:0 0 10px #fff;}
+.core-team .mar200{margin-left:200px;}
+.core-team .mar100{margin-left:100px;}
+
+
+/* Modal */
+.ReactModal__Overlay{background:#00000099 !important ; z-index: 1000;}
+.ReactModal__Content{padding:60px 80px !important; border-radius: 50px !important; text-align: center;}
+.ReactModal__Overlay h2{font-size: 36px;color: #000 !important;font-weight: 600;margin:0 0 40px 0;padding: 0;display: block;text-align: center;font-family: 'Montserrat', sans-serif;}
+.ReactModal__Overlay input[type="text"]{padding: 3%; border-radius: 30px; background: #fff; width:94%; border:solid 1px #ccc;; outline:none; font-size: 18px; margin:0;}
+.infobtnModal {background-image: linear-gradient(to right, #E000FF 0%, #4000AE 100%);border-radius: 40px;color: #fff;padding: 3px;border: none;outline: none;cursor: pointer;margin:30px 20px 0;}
+.infobtnModal span {background: #170221;border-radius: 40px;display: block;font-weight: 500;font-size: 16px;line-height: 16px;padding: 15px 30px;text-transform: uppercase;color: #fff;}
+.infobtnModal:hover {background-image: linear-gradient(to right, #4000AE 0%, #E000FF 100%);color: #fff;text-shadow: 0 0 5px #fff;}
+.infobtnModal1 {background-image: linear-gradient(to right, #E000FF 0%, #4000AE 100%);border-radius: 40px;color: #fff;padding: 3px;border: none;outline: none;cursor: pointer;margin:30px 20px 0;}
+.infobtnModal1 span {background:#fff;border-radius: 40px;display: block;font-weight: 500;font-size: 16px;line-height: 16px;padding: 15px 30px;text-transform: uppercase;color: #170221;}
+.infobtnModal1:hover {background-image: linear-gradient(to right, #4000AE 0%, #E000FF 100%);color: #fff;text-shadow: 0 0 5px #fff;}
