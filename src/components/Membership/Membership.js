@@ -271,7 +271,7 @@ export default function Membership() {
     const ChainId = async () => {
         const web3 = new Web3(Web3.givenProvider)
 
-        if (chainid == 4) {
+        if (chainid == 1) {
             setNetwork(true)
         }
         else {
