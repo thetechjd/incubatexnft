@@ -307,7 +307,7 @@ export default function ConnectMetaMask() {
         var userWalletAddress = window.localStorage.getItem("walletAddress");
         var i;
         var data = [];
-        await axios.get("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address=" + userWalletAddress + "&tag=latest&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3")
+        await axios.get("https://api.etherscan.io/api?module=account&action=balance&address=" + userWalletAddress + "&tag=latest&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3")
             .then(async (response) => {
                 data = response.data.result
                 var balance = data / 1000000000000000000;
