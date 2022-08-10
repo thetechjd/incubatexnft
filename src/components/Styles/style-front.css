@@ -245,13 +245,21 @@ nav li a:hover {color: #fff; text-shadow:0 0 5px #fff;}
 /*-----team-sectiont-----*/
 .team-section {float: left; width: 100%; margin:0; padding:100px 0 0 0;text-align: center;}
 .team-section h3 { font-size: 40px; letter-spacing: 5px; color: #fff; line-height: 140px; background:url("../../assets/images/line_img.png") no-repeat center; text-shadow:0 0 5px #fff; font-weight:300; margin:0 0 60px 0; padding:0; display:block; text-align:center;}
+.leaders {float:left;width: 20%;text-align: center; margin:0 2.5% 35px;}
 .team_info {float: left;width: 28%;text-align: center; margin:0 2.5% 35px;}
-.team-info-small {width: 20% !important;}
+.team-info-small {width: 15% !important;}
+.long-name {font-size: 8px;}
 .team_info img{width:200px; height:200px;border: 4px solid #0000;border-radius: 100px; background: linear-gradient(#DE203E,#12022D) border-box;}
-.team_info h4 {color: #D81F3D;font-size: 30px;font-weight: 600;text-transform: uppercase;line-height: 30px;margin: 0;padding: 5px 0 0 0;font-family: 'Montserrat', sans-serif;} 
+.leaders img{width:200px; height:200px;border: 4px solid #0000;border-radius: 100px; background: linear-gradient(#DE203E,#12022D) border-box;}
+.team_info h4 {color: #D81F3D;font-size: 20px;font-weight: 600;text-transform: uppercase;line-height: 20px;margin: 0;font-family: 'Montserrat', sans-serif;} 
+.leaders h4 {color: #D81F3D;font-size: 20px;font-weight: 600;text-transform: uppercase;line-height: 20px;margin: 0;font-family: 'Montserrat', sans-serif;} 
+.special-small {color: #D81F3D;font-size: 12px; font-weight: 600;text-transform: uppercase;line-height: 20px;margin: 0; font-family: 'Montserrat', sans-serif; } 
 .team_info p {color: #fff;font-size: 20px;margin: 0 auto;line-height: 28px;padding-top: 5px;}
 .team_info a {color: #fff;font-size: 25px;margin: 5px 5px 0;}
 .team_info a:hover {color: #fff;text-shadow:0 0 10px #fff;}
+.leaders p {color: #fff;font-size: 20px;margin: 0 auto;line-height: 28px;padding-top: 5px;}
+.leaders a {color: #fff;font-size: 25px;margin: 5px 5px 0;}
+.leaders a:hover {color: #fff;text-shadow:0 0 10px #fff;}
 
 /*-----market-section-----*/
 .market-section {float: left; width: 100%; margin:0; padding:100px 0 0 0;}
