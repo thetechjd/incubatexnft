@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 import { doc, setDoc, getDocs, collection, updateDoc, deleteDoc, getDoc } from "firebase/firestore";
 import { db } from "./../../config/firebase-config";
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 
 export default function NewsDetails() {
     const search = useLocation().search;
@@ -61,7 +61,7 @@ export default function NewsDetails() {
                 </div>
             </section>
 
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

@@ -6,7 +6,7 @@ import { db } from "./../../config/firebase-config";
 import '../Styles/Project.css'
 import Web3 from 'web3';
 import Navbar from '../NavBar/Navbar.js';
-////import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 import axios from 'axios'
 import { useEthers } from "@usedapp/core";
@@ -540,7 +540,7 @@ export default function ProjectDetails() {
                 </div>
             </Modal>
 
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

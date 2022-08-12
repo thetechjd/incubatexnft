@@ -3,7 +3,7 @@ import Navbar from '../NavBar/Navbar.js'
 import '../Styles/style-front.css';
 import { doc, setDoc, getDocs, collection, updateDoc, deleteDoc } from "firebase/firestore";
 import { db } from "./../../config/firebase-config";
-////import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 import axios from 'axios';
 
@@ -76,7 +76,7 @@ export default function AllNews() {
                         : <h1>No News Added</h1>}
                 </div>
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

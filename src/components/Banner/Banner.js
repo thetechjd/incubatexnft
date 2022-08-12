@@ -29,13 +29,13 @@ export default function Banner() {
 
           <div class="per-50-left">
             <h1>INCUBATEX</h1>
-            <h2>Revolutionzing <br />the world of</h2>
+            <h2>Revolutionizing <br />the world of</h2>
             <h3>NFT LAUNCHPADS</h3>
             <p>First women-led incubator on web3.<br />
-             Paving the way for projects that make a positive impact IRL.</p>
+              Paving the way for projects that make a positive impact IRL.</p>
 
             <div class="banner-buttons">
-            
+
             </div>
           </div>
           <div class="per-50-right">

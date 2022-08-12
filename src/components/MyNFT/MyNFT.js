@@ -6,7 +6,7 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import { doc, getDoc, updateDoc, deleteDoc, collection, getDocs } from "firebase/firestore";
 import { db } from "./../../config/firebase-config";
 import Navbar from '../NavBar/Navbar.js';
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Modal from 'react-modal';
 import Web3 from 'web3';
 import axios from "axios";
@@ -270,7 +270,7 @@ export default function MyNFT() {
         </div>
       </Modal>
 
-      {/* <Footer/> */}
+      <Footer />
     </div>
   )
 }

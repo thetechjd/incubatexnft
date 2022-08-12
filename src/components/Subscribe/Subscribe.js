@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../NavBar/Navbar.js';
 import '../Styles/style-inner.css';
 import axios from 'axios';
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 export default function Subscribe() {
 
@@ -83,7 +83,7 @@ export default function Subscribe() {
 
 
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

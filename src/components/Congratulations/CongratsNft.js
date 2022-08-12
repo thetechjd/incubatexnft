@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../NavBar/Navbar.js'
 import Stickysocial from '../StickySocials/Stickysocial.js'
 import Congratulation from '../../assets/images/congrats.gif';
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 
 export default function CongratsNft() {
 
@@ -22,7 +22,7 @@ export default function CongratsNft() {
                     <button class="infobutton" onClick={() => { onHomePage() }}><span>See Projects</span></button>
                 </div>
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

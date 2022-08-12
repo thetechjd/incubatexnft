@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useHistory, useLocation } from 'react-router-dom';
 import footlogo from '../../assets/images/foot-lgo.png'
 import polygon from '../../assets/images/polgon-icon.png'
+import ethlogo from '../../assets/images/eth_white.png'
 
 const Footer = () => {
 
@@ -24,16 +25,16 @@ const Footer = () => {
                         <a href="https://medium.com/@IncubateX_NFT" target="blank" class="medium"><i class="fab fa-medium" aria-hidden="true"></i></a>
                     </div>
                     <div class="foot-nav">
-                    <a href="/"> Home </a> | <a href="/allnews"> News </a> | <a href="/#contact"> Contact </a> | <a href="/wearehiring"> We're hiring </a> | <a href="/subscribe"> Subscribe  </a> | <a href="/termsofservices"> Terms of Use  </a> | <a href="/privacypolicy"> Privacy Policy </a>
-                    <p>Powered By : Ethereum </p>
+                        <a href="/"> Home </a> | <a href="/allnews"> News </a> | <a href="/#contact"> Contact </a> | <a href="/wearehiring"> We're hiring </a> | <a href="/subscribe"> Subscribe  </a> | <a href="/termsofservices"> Terms of Use  </a> | <a href="/privacypolicy"> Privacy Policy </a>
+                        <p>Powered By : <span><img src={ethlogo} /></span> Ethereum </p>
                     </div>
                 </div>
             </footer>
             <div class="star-field">
-<div class="layer"></div>
-<div class="layer"></div>
-<div class="layer"></div>
-</div>
+                <div class="layer"></div>
+                <div class="layer"></div>
+                <div class="layer"></div>
+            </div>
         </div>
     )
 }

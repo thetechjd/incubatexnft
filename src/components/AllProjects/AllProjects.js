@@ -4,7 +4,7 @@ import Navbar from '../NavBar/Navbar.js'
 import { doc, setDoc, getDocs, collection, updateDoc, deleteDoc } from "firebase/firestore";
 import { db } from "./../../config/firebase-config";
 import '../Styles/style-inner.css'
-////import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 import { UserContext } from '../UseContext.js';
 import comingsoon from '../../assets/images/coming-soon.gif';
@@ -200,7 +200,7 @@ export default function AllProjects() {
                 </Modal>
 
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

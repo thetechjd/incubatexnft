@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from '../NavBar/Navbar.js';
 import '../Styles/style-inner.css';
 import axios from 'axios';
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 export default function SubmitProject() {
 
@@ -75,7 +75,7 @@ export default function SubmitProject() {
                     </form>
                 </div>
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }

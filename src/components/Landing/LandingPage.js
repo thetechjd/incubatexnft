@@ -15,7 +15,7 @@ import Advisors from '../Advisors/Advisors.js';
 import Merchandise from '../Merchandise/Merchandise.js';
 import News from '../News/News.js';
 //import Faq from '../Faq/Faq.js';
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import ContactUs from '../ContactUs/ContactUs.js';
 import AsSeenOn from '../AsSeenOn/AsSeenOn.js';
 const LandingPage = () => {
@@ -37,7 +37,7 @@ const LandingPage = () => {
       <News />
       {/*<Faq />*/}
       <ContactUs />
-      {/*<Footer />*/}
+      <Footer />
     </div>
   );
 };

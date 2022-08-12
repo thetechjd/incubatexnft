@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from "../../assets/images/hiw-1.png";
 import img2 from "../../assets/images/hiw-2.png";
 import img3 from "../../assets/images/hiw-3.png";
-//import Footer from '../Footer/Footer.js';
+import Footer from '../Footer/Footer.js';
 import Navbar from '../NavBar/Navbar.js';
 import Stickysocial from '../StickySocials/Stickysocial.js';
 export default function PrivacyPolicy() {
@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
                     </div>
                 </div>
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }
