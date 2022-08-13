@@ -66,52 +66,52 @@ export default function Advisors() {
 
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={AaronN} />
-						<h5 class="special-small">Aaron Nightingale</h5 >
+						<a href="https://www.linkedin.com/in/aaron-nightingale-83494924/" target="_blank"><h5 class="special-small">Aaron Nightingale</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={AndrewC} />
-						<h5 class="special-small">Andrew Cripps</h5 >
+						<a href="https://www.linkedin.com/in/andrew-cripps-a57a97177/" target="_blank"><h5 class="special-small">Andrew Cripps</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={AnkitaP} />
-						<h5 class="special-small">Ankita Patel</h5 >
+						<a href="https://www.linkedin.com/in/ankita1218/" target="_blank"><h5 class="special-small">Ankita Patel</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={AntonioB} />
-						<h5 class="special-small">Antonio Brasse</h5 >
+						<a href="https://www.linkedin.com/in/antonio-brasse-cpa-cia-cfsa-cisa-cams-1a170557/" target="_blank"><h5 class="special-small">Antonio Brasse</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={BrentL} />
-						<h5 class="special-small">Brent Lipschultz</h5 >
+						<a href="https://www.linkedin.com/in/brentlipschultz/" target="_blank"><h5 class="special-small">Brent Lipschultz</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={CamiR} />
-						<h5 class="special-small">Cami Ragano</h5 >
+						<a href="https://www.linkedin.com/in/cameron-ragano/" target="_blank"><h5 class="special-small">Cami Ragano</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={CarynM} />
-						<h5 class="special-small">Caryn Mefford</h5 >
+						<a href="https://www.linkedin.com/in/caryn-mefford-5618b794/" target="_blank"><h5 class="special-small">Caryn Mefford</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={ClaireL} />
-						<h5 class="special-small">Claire Le Compagnon</h5 >
+						<a href="https://www.linkedin.com/in/claire-le-compagnon/" target="_blank"><h5 class="special-small">Claire Le Compagnon</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={DamienK} />
-						<h5 class="special-small">Damien Kirchner</h5 >
+						<a href="https://www.linkedin.com/in/damien-kirchner-7b364486/" target="_blank"><h5 class="special-small">Damien Kirchner</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={DanaY} />
-						<h5 class="special-small">Dana York</h5 >
+						<a href="https://www.linkedin.com/in/professordanayork/" target="_blank"><h5 class="special-small">Dana York</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
@@ -121,7 +121,7 @@ export default function Advisors() {
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={Nayak} />
-						<h5 class="special-small">Debajyoti Nayak</h5 >
+						<a href="https://in.linkedin.com/pub/debajyoti-nayak/0/b93/34a" target="_blank"><h5 class="special-small">Debajyoti Nayak</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
@@ -131,62 +131,62 @@ export default function Advisors() {
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={DomenicT} />
-						<h5 class="special-small">Domenic Thomas</h5 >
+						<a href="https://www.linkedin.com/in/domenic-thomas-5403676/" target="_blank"><h5 class="special-small">Domenic Thomas</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={DuncanL} />
-						<h5 class="special-small">Duncan Littlefield</h5 >
+						<a href="https://www.linkedin.com/in/duncanlittlefield/" target="_blank"><h5 class="special-small">Duncan Littlefield</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={EboniB} />
-						<h5 class="special-small">Eboni Blake</h5 >
+						<a href="https://www.linkedin.com/in/eboni-blake-843703/" target="_blank"><h5 class="special-small">Eboni Blake</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={FrederickG} />
-						<h5 class="special-small">Frederick Grede</h5 >
+						<a href="https://www.linkedin.com/in/fred-grede-a614954/" target="_blank"><h5 class="special-small">Frederick Grede</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={GuadalupeC} />
-						<h5 class="special-small">Guadalupe Cano</h5 >
+						<a href="https://www.linkedin.com/in/guadacano/" target="_blank"><h5 class="special-small">Guadalupe Cano</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={IvanM} />
-						<h5 class="special-small">Ivan Mlacak</h5 >
+						<a href="https://www.linkedin.com/in/ivan-mlacak-572a178/" target="_blank"><h5 class="special-small">Ivan Mlacak</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={JadJ} />
-						<h5 class="special-small">Jad Jubaili</h5 >
+						<a href="https://www.linkedin.com/in/jadjubaili/" target="_blank"><h5 class="special-small">Jad Jubaili</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={JeanetteS} />
-						<h5 class="special-small">Jeanette Schreiber</h5 >
+						<a href="https://www.linkedin.com/in/jeanetteschreiber/" target="_blank"><h5 class="special-small">Jeanette Schreiber</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={JoanneE} />
-						<h5 class="special-small">Joanne Enders</h5 >
+						<a href="https://www.linkedin.com/in/joanneenders/" target="_blank"><h5 class="special-small">Joanne Enders</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={JoyceH} />
-						<h5 class="special-small">Joyce Hunter</h5 >
+						<a href="https://www.linkedin.com/in/joycehunter/" target="_blank"><h5 class="special-small">Joyce Hunter</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={JustinR} />
-						<h5 class="special-small">Justin Rascode</h5 >
+						<a href="https://www.linkedin.com/in/rascode/" target="_blank"><h5 class="special-small">Justin Rascode</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={KateW} />
-						<h5 class="special-small">Kate Williams, Ph.D</h5 >
+						<a href="https://www.linkedin.com/in/kwilliams72/" target="_blank"><h5 class="special-small">Kate Williams, Ph.D</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
@@ -196,22 +196,22 @@ export default function Advisors() {
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={LeeK} />
-						<h5 class="special-small">Lee Keshav</h5 >
+						<a href="https://www.linkedin.com/in/leekeshav/" target="_blank"><h5 class="special-small">Lee Keshav</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={MiaG} />
-						<h5 class="special-small">Mia Grable</h5 >
+						<a href="https://www.linkedin.com/in/mia-grable-b8b1b1114/" target="_blank"><h5 class="special-small">Mia Grable</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={MickB} />
-						<h5 class="special-small">Mick Badran</h5 >
+						<a href="https://www.linkedin.com/in/mickbadran/" target="_blank"><h5 class="special-small">Mick Badran</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={MikeB} />
-						<h5 class="special-small">Mike Batiste</h5 >
+						<a href="https://www.linkedin.com/in/mikebatiste/" target="_blank"><h5 class="special-small">Mike Batiste</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
@@ -221,42 +221,42 @@ export default function Advisors() {
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={PedroT} />
-						<h5 class="special-small">Pedro Tavares</h5 >
+						<a href="https://www.linkedin.com/in/pedro-h-tavares/" target="_blank"><h5 class="special-small">Pedro H. Tavares</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={RashaH} />
-						<h5 class="special-small">Rasha Hamzeh</h5 >
+						<a href="https://www.linkedin.com/in/rasha-hamzeh/" target="_blank"><h5 class="special-small">Rasha Hamzeh</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={RhondaN} />
-						<h5 class="special-small">Rhonda Nolen</h5 >
+						<a href="https://www.linkedin.com/in/rhonda-nolen-4029aa3/" target="_blank"><h5 class="special-small">Rhonda Nolen</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={ShilpaK} />
-						<h5 class="special-small">Shilpa Karkeraa</h5 >
+						<a href="https://www.linkedin.com/in/shilpa-karkeraa/" target="_blank"><h5 class="special-small">Shilpa Karkeraa</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={SimonJ} />
-						<h5 class="special-small">Simon Julian</h5 >
+						<a href="https://www.linkedin.com/in/simonjulian/" target="_blank"><h5 class="special-small">Simon Julian</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={SimoneS} />
-						<h5 class="special-small">Simone Spencer</h5 >
+						<a href="https://www.linkedin.com/in/simonespencer/" target="_blank"><h5 class="special-small">Simone Spencer</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={TiffanyC} />
-						<h5 class="special-small">Tiffany Calloway</h5 >
+						<a href="https://www.linkedin.com/in/tiffany-calloway-55887626/" target="_blank"><h5 class="special-small">Tiffany Calloway</h5 ></a>
 						<p></p>
 					</div>
 					<div class="team_info team-info-small" data-aos="fade-up">
 						<img src={TylerH} />
-						<h5 class="special-small">Tyler Harttraft</h5 >
+						<a href="https://www.linkedin.com/in/tyler-harttraft-b5596468/" target="_blank"><h5 class="special-small">Tyler Harttraft</h5 ></a>
 						<p></p>
 					</div>
 

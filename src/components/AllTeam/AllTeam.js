@@ -156,7 +156,7 @@ export default function AllTeam() {
                         <div class="right-side">
                             <h4>Kevan</h4>
                             <span></span>
-                            <a href="https://twitter.com/0xNamco" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/kevan-williams-317a80a1/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                             <p></p>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ export default function AllTeam() {
                         <div class="right-side">
                             <h4>Daniel</h4>
                             <span></span>
-                            <a href="https://twitter.com/0xNamco" target="_blank"><i class="fab fa-twitter"></i></a>
+
                             <p></p>
                         </div>
                     </div>
