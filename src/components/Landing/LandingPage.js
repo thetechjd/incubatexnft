@@ -12,9 +12,8 @@ import WhitePaper from '../WhitePaper/WhitePaper.js';
 import UpcomingProjects from '../UpcomingProjects/UpcomingProjects.js';
 import CoreTeam from '../CoreTeam/CoreTeam.js';
 import Advisors from '../Advisors/Advisors.js';
-import Merchandise from '../Merchandise/Merchandise.js';
 import News from '../News/News.js';
-//import Faq from '../Faq/Faq.js';
+import Faq from '../Faq/Faq.js';
 import Footer from '../Footer/Footer.js';
 import ContactUs from '../ContactUs/ContactUs.js';
 import AsSeenOn from '../AsSeenOn/AsSeenOn.js';
@@ -33,9 +32,8 @@ const LandingPage = () => {
       <UpcomingProjects />
       <CoreTeam />
       <Advisors />
-      {/* <Merchandise/> */}
       <News />
-      {/*<Faq />*/}
+      <Faq />
       <ContactUs />
       <Footer />
     </div>

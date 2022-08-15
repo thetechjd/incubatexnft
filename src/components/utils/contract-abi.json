@@ -240,6 +240,32 @@
     },
     {
         "inputs": [],
+        "name": "PRESALE_PRICE_PER_NFT_Genesis",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "PRESALE_PRICE_PER_NFT_Meta",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
         "name": "PRICE_PER_NFT_Genesis",
         "outputs": [
             {
@@ -382,6 +408,42 @@
         "name": "burnBatch",
         "outputs": [],
         "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "numberOfTokens",
+                "type": "uint256"
+            }
+        ],
+        "name": "crossMintGenesis",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "numberOfTokens",
+                "type": "uint256"
+            }
+        ],
+        "name": "crossMintMeta",
+        "outputs": [],
+        "stateMutability": "payable",
         "type": "function"
     },
     {
@@ -646,6 +708,19 @@
     },
     {
         "inputs": [],
+        "name": "presaleLimit",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
         "name": "publicSaleIsActive",
         "outputs": [
             {
@@ -840,6 +915,45 @@
             }
         ],
         "name": "setMetaNFTPrice",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "price",
+                "type": "uint256"
+            }
+        ],
+        "name": "setPreSaleGenesisPrice",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_newLimit",
+                "type": "uint256"
+            }
+        ],
+        "name": "setPreSaleLimit",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "price",
+                "type": "uint256"
+            }
+        ],
+        "name": "setPreSaleMetaPrice",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"

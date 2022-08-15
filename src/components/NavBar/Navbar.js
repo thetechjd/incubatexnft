@@ -115,15 +115,7 @@ const Navbar = ({ height, width }) => {
 
     }
 
-    const gotoMynft = () => {
-        if (account == undefined || account == "" || account == null) {
-            metamaskErrorhandle()
-        }
-        else {
-            history.push("/mynfts");
-        }
 
-    }
 
     return (
         <div>
@@ -136,24 +128,24 @@ const Navbar = ({ height, width }) => {
                     <input type="checkbox" id="active" />
                     <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
                     <div class="wrapper">
-                    <ul>
-                        <li><a href="/">HOME </a></li>
-                        <li><a href="/allprojects">PROJECTS </a></li>
-                        <li><a href="/#whitepaper">WHITEPAPER </a></li>
-                        <li><a href="/#roadmap">ROADMAP </a></li>
-                        <li><a href="/#team">TEAM </a></li>
-                        <li><a href="/#membership">MEMBERSHIPS </a></li>
-                        {/* <li><a href="/#faq">FAQ'S </a></li> */}
-                        <li><a href="/#contact">CONTACT</a></li>
-                        
-                        {/* <li><a href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li> */}
+                        <ul>
+                            <li><a href="/">HOME </a></li>
+                            <li><a href="/allprojects">PROJECTS </a></li>
+                            <li><a href="/#whitepaper">WHITEPAPER </a></li>
+                            <li><a href="/#roadmap">ROADMAP </a></li>
+                            <li><a href="/#team">TEAM </a></li>
+                            <li><a href="/#membership">MEMBERSHIPS </a></li>
+                            {/* <li><a href="/#faq">FAQ'S </a></li> */}
+                            <li><a href="/#contact">CONTACT</a></li>
 
-                        <li><a onClick={() => window.location.reload()} href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li>
-                        {/* <li><a  href="/" class="connect-btn"><span>CONNECT WALLET</span></a></li> */}
+                            {/* <li><a href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li> */}
 
-                    </ul>
+                            <li><a onClick={() => window.location.reload()} href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li>
+                            {/* <li><a  href="/" class="connect-btn"><span>CONNECT WALLET</span></a></li> */}
+
+                        </ul>
                     </div>
-                    </div>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="/">HOME </a></li>
@@ -163,13 +155,13 @@ const Navbar = ({ height, width }) => {
                         <li><a href="/#team">TEAM </a></li>
                         <li><a href="/#membership">MEMBERSHIPS </a></li>
                         {/* <li><a href="/#faq">FAQ'S </a></li> */}
-                        <li><a href="/#contact">CONTACT</a></li> 
+                        <li><a href="/#contact">CONTACT</a></li>
                         {/*<li><a href="/submitproject">SUBMIT YOUR PROJECT</a></li>*/}
                         <li><a onClick={() => window.location.reload()} href="/connect" class="connect-btn"><span>{account ? <span> {account &&
-                                    `${account.slice(0, 6)}...${account.slice(
-                                        account.length - 4,
-                                        account.length
-                                    )}`}</span>: "CONNECT WALLET"}</span></a></li>
+                            `${account.slice(0, 6)}...${account.slice(
+                                account.length - 4,
+                                account.length
+                            )}`}</span> : "CONNECT WALLET"}</span></a></li>
                         {/* <li><a  href="/" class="connect-btn"><span>CONNECT WALLET</span></a></li> */}
 
                     </ul>

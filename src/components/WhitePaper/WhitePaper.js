@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Styles/style-front.css';
 import whitebanner from '../../assets/images/white-banner.png';
-import whitepaper from '../../assets/images/whitepaper.pdf';
+import whitepaper from '../../assets/images/whitepaper_new.pdf';
 
 
 export default function WhitePaper() {

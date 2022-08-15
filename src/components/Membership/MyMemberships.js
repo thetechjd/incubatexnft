@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-//import Footer from '../Footer/Footer.js'
+import Footer from '../Footer/Footer.js'
 import Navbar from '../NavBar/Navbar.js'
 import { useEthers } from "@usedapp/core";
 import Web3 from 'web3';
@@ -22,9 +22,9 @@ const customStyles = {
     },
 }
 
-const contractAddress = '0xA5810ddc32e0fc7049603fC9C016B9E0Fd477707'
-// var netwokUrl = 'https://polygon-mumbai.g.alchemy.com/v2/deAwtSML_l5cXUEMuwl2IqjyAD0lRTmy'
-var netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
+const contractAddress = '0x538289E0497b3a87515A0cB35dD10442D4477038'
+var netwokUrl = 'https://eth-rinkeby.alchemyapi.io/v2/deSJ7VyGLswml7dz5tzzNbHBeYu_R_S1'
+//var netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
 
 // var netwokUrl= 'https://polygon-mainnet.g.alchemy.com/v2/SVdVVUkdUK6uFUDAMxRVe6n3epdLaZqD'
 
@@ -76,7 +76,8 @@ export default function MyMemberships() {
         // const chainid=await new web3.eth.net.getId()
         const chainid = await new web3.eth.getChainId()
         console.log("Chain ID====", chainid)
-        if (chainid == 1) {
+        //replace this!
+        if (chainid == 4) {
             setTimeout(
                 () => {
                     if (ethereum && ethereum.isMetaMask) {
@@ -111,7 +112,9 @@ export default function MyMemberships() {
         // const chainid=await new web3.eth.net.getId()
         const chainid = await new web3.eth.getChainId()
         console.log("Chain ID====", chainid)
-        if (chainid == 1) {
+
+        //replace this!
+        if (chainid == 4) {
             await GetNft()
 
             setloading(false);
@@ -328,7 +331,7 @@ const tranferNFT = async (i) => {
 
 
 
-            {/*<Footer />*/}
+            <Footer />
             {loading ? <div class="waiting-overlay">
                 <div class="waiting" id="text">
                     <div class="loading-img"></div>

@@ -11,6 +11,7 @@ import AWS from 'aws-sdk'
 import { db } from "../../config/firebase-config";
 import { UserContext } from '../UseContext.js';
 import CountDown from '../CountDown/CountDown.js';
+import { CrossmintPayButton } from "@crossmint/client-sdk-react-ui";
 import { doc, setDoc, getDoc, updateDoc, collection, getDocs } from "firebase/firestore";
 
 const S3_BUCKET = 'assets.incubatex.io';
@@ -80,9 +81,9 @@ export default function Membership() {
 
     // var ERC721ContractAddress = '0x944df6cccBe1dF4080a292F120F675118541cA6d';//rinkeyBy
     // var ERC721ContractAddress = '0x4ED07409dA3aF014de71EB9d47f9CF7f408f8AAa';
-    const contractAddress = '0xA5810ddc32e0fc7049603fC9C016B9E0Fd477707'
-    // var netwokUrl = 'https://polygon-mumbai.g.alchemy.com/v2/deAwtSML_l5cXUEMuwl2IqjyAD0lRTmy'
-    var netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
+    const contractAddress = '0x538289E0497b3a87515A0cB35dD10442D4477038'
+    var netwokUrl = 'https://eth-rinkeby.alchemyapi.io/v2/deSJ7VyGLswml7dz5tzzNbHBeYu_R_S1'
+    //var netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
 
     const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
     const endTime = 1656597600000 / 1000; // use UNIX timestamp in mseconds
@@ -175,7 +176,8 @@ export default function Membership() {
         var userWalletAddress = window.localStorage.getItem("walletAddress");
         var i;
         var data = [];
-        await axios.get("https://api.etherscan.com/api?module=account&action=tokennfttx&contractaddress=" + contractAddress + "&page=1&offset=100&startblock=0&endblock=27025780&sort=asc&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3" + "&address=" + userWalletAddress)
+        //replace this!
+        await axios.get("https://api-rinkeby.etherscan.com/api?module=account&action=tokennfttx&contractaddress=" + contractAddress + "&page=1&offset=100&startblock=0&endblock=27025780&sort=asc&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3" + "&address=" + userWalletAddress)
             .then(async (response) => {
                 data = response.data.result
                 if (data.length == 0) {
@@ -270,7 +272,7 @@ export default function Membership() {
 
     const ChainId = async () => {
         const web3 = new Web3(Web3.givenProvider)
-
+        //replace this!
         if (chainid == 1) {
             setNetwork(true)
         }
@@ -640,7 +642,16 @@ export default function Membership() {
                                     </>
                                 }
 
+
                             </div>
+                            <CrossmintPayButton
+                                collectionTitle="IncubateX Test"
+                                collectionDescription="null"
+                                collectionPhoto=""
+                                clientId="cae645e7-5233-4c24-abcf-e0b6a774cef0"
+                                mintConfig={{ "type": "erc-1155", "totalPrice": "0.16", "numberOfTokens": "2777" }}
+                                environment="staging"
+                            />
                         </div>
                     </div>
 

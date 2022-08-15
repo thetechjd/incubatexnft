@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Styles/style-front.css';
-import waqas from '../../assets/images/waqas.jpg';
-import maliha from '../../assets/images/maliha.png';
 import neel from '../../assets/images/neel.jpg';
 import Namit from '../../assets/images/namit.jpg';
 import AaronN from '../../assets/images/Aaron_Nightingale.jpg';

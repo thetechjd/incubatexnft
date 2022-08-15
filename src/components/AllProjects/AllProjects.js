@@ -90,9 +90,7 @@ export default function AllProjects() {
         });
     }
 
-    const gotoSubmitProject = () => {
-        window.location.href = "/submitproject";
-    }
+
     const gotoDetailPage = (id, projectTier) => {
 
         var ProjectTier = projectTier;

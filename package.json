@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://incubatex.io/",
   "dependencies": {
+    "@crossmint/client-sdk-react-ui": "^0.1.8-alpha.0",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@fontsource/inter": "^4.5.0",

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef, useContext } from 'react'
 import { useEthers } from "@usedapp/core";
 import InfoImgMeta from '../../assets/images/metamask.gif';
 import Navbar from '../NavBar/Navbar.js';
-//import Footer from '../Footer/Footer'
+import Footer from '../Footer/Footer'
 import Modal from 'react-modal';
 import { doc, setDoc, getDoc, updateDoc, collection, getDocs } from "firebase/firestore";
 import { db } from "../../config/firebase-config";
@@ -15,7 +15,8 @@ import lInfo from '../../assets/images/loading-error.gif'
 import Stickysocial from '../StickySocials/Stickysocial.js';
 
 const contractABI = require("../utils/contract-abi.json");
-const netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
+const netwokUrl = 'https://eth-rinkeby.alchemyapi.io/v2/deSJ7VyGLswml7dz5tzzNbHBeYu_R_S1'
+//const netwokUrl = 'https://eth-mainnet.g.alchemy.com/v2/gOkgumMo6bV2fWBI5ih89uP7KW99oXye'
 
 export default function ConnectMetaMask() {
     const ethereum = window.ethereum;
@@ -36,7 +37,8 @@ export default function ConnectMetaMask() {
     const [userMembership, setUsermembership] = useState("")
     const [network, setNetwork] = useState(true)
 
-    const contractAddress = '0x41458d0A88711F80fE306737864BDDe1f8e19174';
+    //replace this!
+    const contractAddress = '0x538289E0497b3a87515A0cB35dD10442D4477038';
     const customStyles = {
         content: {
             top: '50%',
@@ -72,7 +74,8 @@ export default function ConnectMetaMask() {
         const web3 = new Web3(Web3.givenProvider || network)
         const chainid = await new web3.eth.getChainId()
         console.log("chain is", chainid)
-        if (chainid == 1) {
+        //replace this!
+        if (chainid == 4) {
             setNetwork(true)
         }
         else {
@@ -136,7 +139,8 @@ export default function ConnectMetaMask() {
         var userWalletAddress = window.localStorage.getItem("walletAddress");
         var i;
         var data = [];
-        await axios.get("https://api.etherscan.io/api?module=account&action=tokennfttx&contractaddress=" + contractAddress + "&page=1&offset=100&startblock=0&endblock=27025780&sort=asc&apikey=V9UQDWAWUTDV32TEHJMEFXTSVT71VTHFF8" + "&address=" + userWalletAddress)
+        //replace this!
+        await axios.get("https://api-rinkeby.etherscan.io/api?module=account&action=tokennfttx&contractaddress=" + contractAddress + "&page=1&offset=100&startblock=0&endblock=27025780&sort=asc&apikey=V9UQDWAWUTDV32TEHJMEFXTSVT71VTHFF8" + "&address=" + userWalletAddress)
             .then(async (response) => {
                 data = response.data.result
                 if (data.length == 0) {
@@ -307,7 +311,8 @@ export default function ConnectMetaMask() {
         var userWalletAddress = window.localStorage.getItem("walletAddress");
         var i;
         var data = [];
-        await axios.get("https://api.etherscan.io/api?module=account&action=balance&address=" + userWalletAddress + "&tag=latest&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3")
+        //replace this!
+        await axios.get("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address=" + userWalletAddress + "&tag=latest&apikey=8XX3TRP1WSAQDAJD24KCGE56NJJADYD2P3")
             .then(async (response) => {
                 data = response.data.result
                 var balance = data / 1000000000000000000;
@@ -465,7 +470,7 @@ export default function ConnectMetaMask() {
                     </div>}
 
             </section>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }
