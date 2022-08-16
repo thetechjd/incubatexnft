@@ -137,6 +137,7 @@ const Navbar = ({ height, width }) => {
                             <li><a href="/#membership">MEMBERSHIPS </a></li>
                             {/* <li><a href="/#faq">FAQ'S </a></li> */}
                             <li><a href="/#contact">CONTACT</a></li>
+                            <li><a href="/ebook">EBOOK</a></li>
 
                             {/* <li><a href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li> */}
 
@@ -154,8 +155,10 @@ const Navbar = ({ height, width }) => {
                         <li><a href="/#roadmap">ROADMAP </a></li>
                         <li><a href="/#team">TEAM </a></li>
                         <li><a href="/#membership">MEMBERSHIPS </a></li>
+
                         {/* <li><a href="/#faq">FAQ'S </a></li> */}
                         <li><a href="/#contact">CONTACT</a></li>
+                        <li><a href="/ebook">EBOOK</a></li>
                         {/*<li><a href="/submitproject">SUBMIT YOUR PROJECT</a></li>*/}
                         <li><a onClick={() => window.location.reload()} href="/connect" class="connect-btn"><span>{account ? <span> {account &&
                             `${account.slice(0, 6)}...${account.slice(

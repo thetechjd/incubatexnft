@@ -28,6 +28,7 @@ import Congratulations from './components/Congratulations/Congratulations.js';
 import NewsDetails from './components/NewsDetails/NewsDetails.js';
 import AllNews from './components/AllNews/AllNews.js';
 import AllProjects from './components/AllProjects/AllProjects.js';
+import EbookContactUs from './components/Ebook/EbookContactUs.js'
 import AllTeam from './components/AllTeam/AllTeam.js';
 //import WeHiring from './components/WeHiring/WeHiring.js';
 import TermsofServices from './components/TermsofServices/TermsofServices.js';
@@ -280,6 +281,8 @@ const App = () => {
 
 
           <Route path='/allprojects/' component={AllProjects} />
+          <Route path='/ebook/' component={EbookContactUs} />
+
 
           <Route path='/mymemberships/' component={MyMemberships} />
 
