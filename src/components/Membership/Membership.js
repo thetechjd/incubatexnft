@@ -695,6 +695,14 @@ export default function Membership() {
                                 }
 
                             </div>
+                            <CrossmintPayButton
+                                collectionTitle="Meta Test"
+                                collectionDescription="null"
+                                collectionPhoto=""
+                                clientId="33541dd3-bd25-4da9-a7ab-bb179e23552a"
+                                mintConfig={{ "type": "erc-1155", "totalPrice": "0.072", "numberOfTokens": "1" }}
+                                environment="staging"
+                            />
                         </div>
                     </div>
 
