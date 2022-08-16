@@ -305,7 +305,7 @@ textarea.form-control.form-control {width: 96.2%;background-color: transparent; 
 .submit-contact-btn {background-image: linear-gradient(to right, #E000FF 0%, #4000AE 100%); border-radius: 40px; color: #fff;padding: 3px; border: none; outline:none; cursor:pointer; margin:20px 0;}
 .submit-contact-btn:hover {background-image: linear-gradient(to right, #4000AE 0%, #E000FF 100%); color: #fff; text-shadow:0 0 5px #fff; }
 .submit-contact-btn span { background:#170221; border-radius: 40px; display: block; font-weight: 500; font-size:20px; line-height: 16px; padding:15px 25px; text-transform:uppercase;}
-.ebook-download {font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 20px}
+.ebook-download {font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 0.7rem}
 
 /*----footer-section-----*/
 footer {float: left; width: 100%; margin:0; padding:100px 0 50px 0; text-align:center;}
@@ -444,6 +444,11 @@ nav ul {
 }
 .story-section {
     margin: 50px 0 0 0;
+}
+.ebook-download {
+    width: 20px;
+    height: 10px;
+    font: 8px;
 }
 .story-section h3 {
     font-size: 30px;
