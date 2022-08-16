@@ -649,7 +649,7 @@ export default function Membership() {
                                 collectionDescription="null"
                                 collectionPhoto=""
                                 clientId="cae645e7-5233-4c24-abcf-e0b6a774cef0"
-                                mintConfig={{ "type": "erc-1155", "totalPrice": "0.16", "numberOfTokens": "2777" }}
+                                mintConfig={{ "type": "erc-1155", "totalPrice": "0.16", "numberOfTokens": "1" }}
                                 environment="staging"
                             />
                         </div>
