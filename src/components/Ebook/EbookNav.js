@@ -29,9 +29,10 @@ const EbookNav = ({ height, width }) => {
                         <ul>
                             <li><a href="/">HOME </a></li>
                             <li><a href="/ebook">TOP </a></li>
-                            <li><a href="/#whitepaper">BENEFITS </a></li>
-                            <li><a href="/#roadmap">CONTENT </a></li>
-                            <li><a href="/#team">PREVIEW </a></li>
+                            <li><a href="#build">BUILD </a></li>
+                            <li><a href="#mistakes">MISTAKES</a></li>
+                            <li><a href="#content">CONTENT </a></li>
+                            <li><a href="#preview">PREVIEW </a></li>
 
                             <li><a class="connect-btn">Download</a> </li>
 
@@ -47,9 +48,10 @@ const EbookNav = ({ height, width }) => {
                     <ul>
                         <li><a href="/">HOME </a></li>
                         <li><a href="/ebook">TOP </a></li>
-                        <li><a href="/#whitepaper">BENEFITS </a></li>
-                        <li><a href="/#roadmap">CONTENT </a></li>
-                        <li><a href="/#team">PREVIEW </a></li>
+                        <li><a href="#build">BUILD </a></li>
+                        <li><a href="#mistakes">MISTAKES</a></li>
+                        <li><a href="#content">CONTENT </a></li>
+                        <li><a href="#preview">PREVIEW </a></li>
 
                         <li><button class="ebook-download" style={{ color: '#000', padding: '0.5em 1em 0.5em 1em', borderRadius: '3em', borderColor: '#fff', borderStyle: 'none', backgroundColor: '#fff' }}>Download</button> </li>
                     </ul>
