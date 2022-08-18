@@ -34,7 +34,9 @@ const EbookNav = ({ height, width }) => {
                             <li><a href="#content">CONTENT </a></li>
                             <li><a href="#preview">PREVIEW </a></li>
 
-                            <li><a class="connect-btn">Download</a> </li>
+                            <li><a href="#ebook" style={{ color: '#fff', textDecoration: 'none' }} class="connect-btn">Download</a> </li>
+
+
 
                             {/* <li><a href="/connect" class="connect-btn"><span>{account ? "DISCONNECT WALLET" : "CONNECT WALLET"}</span></a></li> */}
 
@@ -53,7 +55,7 @@ const EbookNav = ({ height, width }) => {
                         <li><a href="#content">CONTENT </a></li>
                         <li><a href="#preview">PREVIEW </a></li>
 
-                        <li><button class="ebook-download" style={{ color: '#000', padding: '0.5em 1em 0.5em 1em', borderRadius: '3em', borderColor: '#fff', borderStyle: 'none', backgroundColor: '#fff' }}>Download</button> </li>
+                        <li><button class="ebook-download" style={{ color: '#000', padding: '0.5em 1em 0.5em 1em', borderRadius: '3em', borderColor: '#fff', borderStyle: 'none', backgroundColor: '#fff' }}><a style={{ color: '#000', textDecoration: 'none' }} href="#ebook"><span>Download </span></a> </button> </li>
                     </ul>
                 </nav>
             </header>

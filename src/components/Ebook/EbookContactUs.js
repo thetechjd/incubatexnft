@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import EbookNav from '../Ebook/EbookNav.js'
+import whitepaper from '../../assets/images/whitepaper_new.pdf'
 import '../Styles/style-inner.css'
 import fav from '../../assets/images/fav.png'
 import info from '../../assets/images/ebook-info.png'
@@ -17,6 +18,9 @@ export default function ContactUs() {
     const [userSubject, setUserSubject] = useState("")
     const [userMessage, setUserMessage] = useState("")
 
+
+
+
     return (
         <>
             <EbookNav />
@@ -28,7 +32,7 @@ export default function ContactUs() {
                                 <p style={{ fontSize: '3vw', lineHeight: '150%' }}>PLAN & EXECUTE YOUR NFT PROJECT LIKE A PRO!</p>
                                 <p style={{ fontSize: '1.5vw', lineHeight: '100%' }}>If you have a good idea for an NFT project but feel lost in the space and unsure how to proceed, this free Ebook guide is for you! We will walk you step by step through the most important stages of planning & executing your project with easy to follow tips & resources!</p>
                             </div>
-                            <button style={{ fontSize: '1.5vw', paddingLeft: '0.5em', borderRadius: '40px', paddingRight: '0.5em', color: '#fff', minWidth: '10%', minHeight: '8%', maxWidth: '15%', backgroundColor: '#693ecb', position: 'absolute', marginTop: '45%', marginLeft: '10%' }}>Download Now For Free </button>
+                            <button style={{ fontSize: '1.5vw', paddingLeft: '0.5em', borderRadius: '40px', paddingRight: '0.5em', color: '#fff', minWidth: '10%', minHeight: '8%', maxWidth: '15%', backgroundColor: '#693ecb', position: 'absolute', marginTop: '45%', marginLeft: '10%' }}><a style={{ color: '#fff', textDecoration: 'none' }} href="#ebook"><span>Download Now For Free</span></a> </button>
                             <img src={top} style={{ width: '100%', backgroundColor: '#edfcfd', marginBottom: '-5px' }} />
                         </div>
                         <div id="build" style={{ justifyContent: 'center' }}>
@@ -69,18 +73,18 @@ export default function ContactUs() {
                             <img src={preview} style={{ width: '100%', marginRight: '2em', backgroundColor: '#edfcfd' }} />
                         </div>
 
+                        <div id="ebook">
 
 
 
-                        <div class="form-content" id="ebook-form-content" style={{ backgroundColor: '#693ecb', width: '100%', marginTop: '1em' }}>
-                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSfb1rVWkz-bOF5-L7TskktbvJavMv9VtJctsGf8YHmhVLZ3ag/formResponse" method="post" target="_blank">
-                                <h2>Download Your Free Ebook</h2>
-                                <input type="text" id="fname" style={{ backgroundColor: '#fff' }} name="entry.1911725452" placeholder="Name*" required />
-                                <input type="email" id="mail" style={{ backgroundColor: '#fff' }} name="entry.917704839" placeholder="Email*" required /><br /><br />
-                                <input type="text" id="subject" style={{ backgroundColor: '#fff' }} name="entry.1261820702" placeholder="Subject" /><br /><br />
-                                <textarea class="form-control form-control" style={{ backgroundColor: '#fff' }} rows="3" name="entry.62356061" placeholder="Message"></textarea>
-                                <button type="submit" class="submit-contact-btn"><span>Send Message</span></button>
-                            </form>
+                            <div class="form-content" style={{ backgroundColor: '#693ecb', marginTop: '1em', padding: '0 5%', justifyContent: 'center' }}>
+                                <form >
+                                    <h2>Download Your Free Ebook</h2>
+                                    <input type="email" id="mail" style={{ width: '95%', color: '#000', backgroundColor: '#fff' }} placeholder="Email*" required /><br /><br />
+                                </form>
+                                <button class='download-btn'><a href={whitepaper} target="_blank"><span>Download</span></a></button>
+
+                            </div>
                         </div>
                     </div>
                 </section>
