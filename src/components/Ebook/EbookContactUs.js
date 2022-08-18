@@ -28,7 +28,7 @@ export default function ContactUs() {
                                 <p style={{ fontSize: '3vw', lineHeight: '150%' }}>PLAN & EXECUTE YOUR NFT PROJECT LIKE A PRO!</p>
                                 <p style={{ fontSize: '1.5vw', lineHeight: '100%' }}>If you have a good idea for an NFT project but feel lost in the space and unsure how to proceed, this free Ebook guide is for you! We will walk you step by step through the most important stages of planning & executing your project with easy to follow tips & resources!</p>
                             </div>
-                            <button class="connect-btn" style={{ fontSize: '1.5vw', paddingLeft: '0.5em', paddingRight: '0.5em', color: '#fff', minWidth: '10%', minHeight: '8%', maxWidth: '15%', backgroundColor: '#693ecb', position: 'absolute', marginTop: '45%', marginLeft: '10%' }}>Download Now For Free  ▶</button>
+                            <button style={{ fontSize: '1.5vw', paddingLeft: '0.5em', borderRadius: '40px', paddingRight: '0.5em', color: '#fff', minWidth: '10%', minHeight: '8%', maxWidth: '15%', backgroundColor: '#693ecb', position: 'absolute', marginTop: '45%', marginLeft: '10%' }}>Download Now For Free </button>
                             <img src={top} style={{ width: '100%', backgroundColor: '#edfcfd', marginBottom: '-5px' }} />
                         </div>
                         <div id="build" style={{ justifyContent: 'center' }}>
