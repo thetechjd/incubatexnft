@@ -11,12 +11,27 @@ import mistakes from '../../assets/images/Mistakes.png'
 import content from '../../assets/images/Content.png'
 import preview from '../../assets/images/Preview.png'
 
-export default function ContactUs() {
+export default function EbookDownload() {
 
     const [userEmail, setUserEmail] = useState("")
     const [userName, setUserName] = useState("")
     const [userSubject, setUserSubject] = useState("")
     const [userMessage, setUserMessage] = useState("")
+
+    const handleSubmit = () => {
+        // using Java Script method to get PDF file
+        fetch('sample.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'sample.pdf';
+                alink.click();
+            })
+        })
+    }
 
 
 
@@ -77,12 +92,15 @@ export default function ContactUs() {
 
 
 
-                            <div class="form-content" style={{ backgroundColor: '#693ecb', marginTop: '1em', padding: '0 5%', justifyContent: 'center' }}>
-                                <form >
+                            <div id="my-form" class="form-content" style={{ backgroundColor: '#693ecb', marginTop: '1em', padding: '0 5%', justifyContent: 'center' }}>
+                                <form action="https://docs.google.com/forms/d/e/1FAIpQLSfb1rVWkz-bOF5-L7TskktbvJavMv9VtJctsGf8YHmhVLZ3ag/formResponse" method="post" onSubmit={handleSubmit} target="_blank">
                                     <h2>Download Your Free Ebook</h2>
-                                    <input type="email" id="mail" style={{ width: '95%', color: '#000', backgroundColor: '#fff' }} placeholder="Email*" required /><br /><br />
+                                    <input type="text" id="fname" style={{ width: '95%', color: '#000', backgroundColor: '#fff' }} name="entry.1911725452" placeholder="Name*" />
+                                    <input type="email" id="mail" style={{ width: '95%', color: '#000', backgroundColor: '#fff' }} name="entry.917704839" placeholder="Email*" required /><br /><br />
+                                    <button type="submit" id="download-pdf" class='download-btn'><a href={whitepaper} download><span>Download</span></a></button>
                                 </form>
-                                <button class='download-btn'><a href={whitepaper} target="_blank"><span>Download</span></a></button>
+
+
 
                             </div>
                         </div>
