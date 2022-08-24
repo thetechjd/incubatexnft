@@ -1162,9 +1162,16 @@ textarea.form-control.form-control{
     nav li a {
         font-size: 12px;
     }
+    #mistakes {
+        marginLeft: -10%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #mistakes {
+        marginLeft: -10%;
+    }
   
 }
 
