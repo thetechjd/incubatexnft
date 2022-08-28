@@ -20,14 +20,14 @@ export default function EbookDownload() {
 
     const handleSubmit = () => {
         // using Java Script method to get PDF file
-        fetch('sample.pdf').then(response => {
+        fetch('13_STEPS_TO_LAUNCH_A_SUCCESSFUL_NFT_PROJECT.pdf').then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'sample.pdf';
+                alink.download = '13 STEPS TO LAUNCH A SUCCESSFUL NFT PROJECT';
                 alink.click();
             })
         })
